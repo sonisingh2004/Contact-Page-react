@@ -1,0 +1,58 @@
+.main .submain {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 131px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.title {
+  font-family: poppins;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-family: poppins;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  color: #5A5959;
+  margin-bottom: 3.5rem;
+  width: 725px;
+}
+
+.forms service {
+  width: 25vw;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: black;
+  font-size: 12px;
+  font-family: poppins;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 4px 8px;
+  width: 11vw;
+  text-align: center;
+}
+
+.buttons img {
+  margin-right: 3px;
+  width: 15px;
+}
